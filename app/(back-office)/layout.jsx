@@ -9,7 +9,9 @@ export default function Layout({ children }) {
       <div className="w-full">
         <NavBar />
         {/* Main */}
-        <main>{children}</main>
+        <main className="ml-60  p-8 bg-slate-900 text-slate-50 min-h-screen mt-16">
+          {children}
+        </main>
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 import React from "react";
-import { Sun, Bell, User, Menu } from "lucide-react";
+import { Sun, Bell, User, AlignJustify } from "lucide-react";
 export default function NavBar() {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between bg-slate-800 text-slate-50 h-16 px-8 py-4 fixed top-0 min-w-full left-60">
       <button>
-        <Menu />
+        <AlignJustify />
       </button>
 
       <div className="flex space-x-3">
